@@ -59,6 +59,7 @@ input {
   padding: 0 1rem;
   background: #fff;
   transition: all .35s;
+  cursor: pointer;
 }
 .item-content img {
   max-width: 100%;
@@ -84,16 +85,13 @@ input:hover + .item-label::after {
   transform: rotate(90deg);
 }
 
-/* .item-input:checked ~ .tab-content,
-.tab:hover .tab-content {
-  max-height: 80vh;
-  padding: 10px;
-} */
-
-
-
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
 	html {
-		font-size: 0.7rem;
+		font-size: 9px;
+	}
+}
+@media (max-width: 768px) {
+	html {
+		font-size: 7px;
 	}
 }

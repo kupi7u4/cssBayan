@@ -58,7 +58,7 @@ input {
   max-height: 0;
   padding: 0 1rem;
   background: #fff;
-  transition: all .35s;
+  transition: all .5s;
   cursor: pointer;
 }
 .item-content img {
